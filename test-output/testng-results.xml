@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T14:51:59 EET" name="Suite" finished-at="2022-07-24T14:52:28 EET" duration-ms="28815">
+    <groups>
+      <group name="smoke">
+        <method signature="E2E_Drag_Drop.checkDragDrop()[pri:1, instance:test_cases.E2E_Drag_Drop@73e9cf30]" name="checkDragDrop" class="test_cases.E2E_Drag_Drop"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-07-24T14:51:59 EET" name="Test" finished-at="2022-07-24T14:52:28 EET" duration-ms="28815">
+      <class name="test_cases.E2E_Drag_Drop">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:test_cases.E2E_Drag_Drop@73e9cf30]" started-at="2022-07-24T14:51:59 EET" name="prepare" finished-at="2022-07-24T14:52:13 EET" duration-ms="14027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="checkDragDrop()[pri:1, instance:test_cases.E2E_Drag_Drop@73e9cf30]" started-at="2022-07-24T14:52:13 EET" name="checkDragDrop" description="Check drag and drop operation" finished-at="2022-07-24T14:52:27 EET" duration-ms="14238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDragDrop -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test_cases.E2E_Drag_Drop@73e9cf30]" started-at="2022-07-24T14:52:27 EET" name="TearDown" finished-at="2022-07-24T14:52:28 EET" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test_cases.E2E_Drag_Drop -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
